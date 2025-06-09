@@ -1,0 +1,76 @@
+# Build artifacts
+*.o
+*.obj
+*.lo
+*.la
+*.al
+*.libs
+*.a
+*.lib
+*.so
+*.so.*
+*.dll
+*.dylib
+*.exe
+*.out
+
+# Precompiled headers
+*.gch
+*.pch
+*.pdb
+
+# Linker files
+*.ilk
+*.exp
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+build/
+_build/
+CMakeUserPresets.json
+
+# Visual Studio generated files
+*.sln
+*.vcxproj*
+*.vcproj*
+*.user
+*.ncb
+*.sdf
+*.opensdf
+*.db
+*.idb
+*.ipch
+*.tlog
+*.log
+*.vs/
+*.vscode/
+Debug/
+Release/
+x64/
+x86/
+
+# MinGW/Code::Blocks
+*.depend
+*.layout
+*.layout.save
+*.cbp
+
+# Qt Creator
+*.pro.user*
+*.qbs.user*
+*.autosave
+
+# VSCode and JetBrains CLion
+.vscode/
+.idea/
+
+# Temporary/system files
+*.tmp
+*.swp
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
